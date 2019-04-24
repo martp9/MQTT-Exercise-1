@@ -18,7 +18,7 @@ gc.collect()
 SERVER ='m24.cloudmqtt.com' #TODO
 CLIENT_ID='ESP32'           #TODO
 PORT=15254                  #TODO
-TOPIC_PUB=b'temp_humidity'  #aka tag publish
+TOPIC_PUB=b'temp_press'  #aka tag publish
 TOPIC_SUB=b'led1'           #aka tag subscribe
 # User login if needed
 USERNAME = 'YOUR_USER_NAME'
